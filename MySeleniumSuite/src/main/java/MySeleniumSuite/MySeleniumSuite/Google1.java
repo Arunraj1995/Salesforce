@@ -17,7 +17,17 @@ public class Google1 {
 		    driver.findElement(By.id("password")).click();
 		    driver.findElement(By.id("password")).sendKeys("kasetti555");
 		    driver.findElement(By.id("Login")).click();
+            driver.findElement(By.xpath("//div[@class='slds-page-header cBatchMasterForSales']//button[@name='inventoryModal'][normalize-space()='Upload File']")).click();
+		    /*String ActualResult ="Upload Interface";
+		    String ExpectedResult ="Lightning Experience";
 		    System.out.println(driver.getTitle());
+		    if(ActualResult.equals(ExpectedResult)) {
+		    	System.out.println("Success");
+		    }
+		    else {
+		    	System.out.println("Failed");
+		    }*/
+		    
 	}
 
 }

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20750" started-at="2021-03-08T12:05:50Z" finished-at="2021-03-08T12:06:11Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20750" started-at="2021-03-08T12:05:50Z" finished-at="2021-03-08T12:06:11Z">
+      <class name="TestNGBasic.HomePageTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:TestNGBasic.HomePageTest@4ae3c1cd]" name="SetUp" is-config="true" duration-ms="9402" started-at="2021-03-08T17:35:50Z" finished-at="2021-03-08T17:36:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="FAIL" signature="verifyPageTitleTest()[pri:0, instance:TestNGBasic.HomePageTest@4ae3c1cd]" name="verifyPageTitleTest" duration-ms="34" started-at="2021-03-08T17:36:00Z" finished-at="2021-03-08T17:36:00Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<#1 Free CRM customer relationship management software cloud> but was:<#1 Free CRM customer relationship management software cloudXXXX>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<#1 Free CRM customer relationship management software cloud> but was:<#1 Free CRM customer relationship management software cloudXXXX>
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:101)
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:108)
+	at TestNGBasic.HomePageTest.verifyPageTitleTest(HomePageTest.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitleTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNGBasic.HomePageTest@4ae3c1cd]" name="afterMethod" is-config="true" duration-ms="4175" started-at="2021-03-08T17:36:00Z" finished-at="2021-03-08T17:36:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:TestNGBasic.HomePageTest@4ae3c1cd]" name="SetUp" is-config="true" duration-ms="6801" started-at="2021-03-08T17:36:04Z" finished-at="2021-03-08T17:36:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="verifyImgaeLogoTest()[pri:0, instance:TestNGBasic.HomePageTest@4ae3c1cd]" name="verifyImgaeLogoTest" duration-ms="141" started-at="2021-03-08T17:36:11Z" finished-at="2021-03-08T17:36:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyImgaeLogoTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNGBasic.HomePageTest@4ae3c1cd]" name="afterMethod" is-config="true" duration-ms="166" started-at="2021-03-08T17:36:11Z" finished-at="2021-03-08T17:36:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- TestNGBasic.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
